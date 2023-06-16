@@ -1,4 +1,4 @@
-package dev.techieguy.main;
+package dev.techieguy.array;
 
 public class CountingValleys {
 
