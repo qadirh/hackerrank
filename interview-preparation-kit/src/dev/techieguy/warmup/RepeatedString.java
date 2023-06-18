@@ -20,6 +20,7 @@ public class RepeatedString {
         }
         return count;
     }
+    // Stackoverflow exception coming at this line
     static String repeat(String str, long times) {
         if (times <= 0)
             return "";
