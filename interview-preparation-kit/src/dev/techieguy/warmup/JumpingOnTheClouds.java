@@ -10,10 +10,9 @@ public class JumpingOnTheClouds {
     }
     static int solution(final List<Integer> list) {
         int count = 0;
-        for (int index = 0; indsex < list.size() - 1; index++) {
-            if(index + 2 < list.size() && list.get(index + 2) == 0) {
+        for (int index = 0; index < list.size() - 1; index++) {
+            if(index + 2 < list.size() && list.get(index + 2) == 0)
                 index++;
-            }
             count++;
         }
         return count;
