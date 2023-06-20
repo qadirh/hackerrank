@@ -13,14 +13,12 @@ public class Array2D {
     private static int temp;
 
     public static void main(String[] args) {
-
         for (int i = 0; i < NUMBER_OF_LINES; i++) {
             line = input.nextLine();
             arrayLine = line.split(" ");
             for (int j = 0; j < NUMBER_OF_LINES; j++)
-                array[i][j] = Integer.valueOf(arrayLine[j]);
+                array[i][j] = Integer.parseInt(arrayLine[j]);
         }
-
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
                 temp = calculateHourGlass(array, i, j);
