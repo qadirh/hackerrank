@@ -13,7 +13,7 @@ public class Array2D {
     private static int temp;
 
     public static void main(String[] args) {
-        
+
         for (int i = 0; i < NUMBER_OF_LINES; i++) {
             line = input.nextLine();
             arrayLine = line.split(" ");

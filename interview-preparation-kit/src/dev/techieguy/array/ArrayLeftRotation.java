@@ -1,2 +1,8 @@
-package dev.techieguy.array;public class ArrayLeftRotation {
+package dev.techieguy.array;
+
+public class ArrayLeftRotation {
+
+    public static void main(String[] args) {
+        
+    }
 }
