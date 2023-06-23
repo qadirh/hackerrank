@@ -21,8 +21,8 @@ public class Array2D {
                 array[i][j] = Integer.parseInt(arrayLine[j]);
         }
 
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
+        for (int i = 0; i < NUMBER_OF_LINES - 2; i++) {
+            for (int j = 0; j < NUMBER_OF_LINES - 2; j++) {
                 temp = calculateHourGlass(array, i, j);
                 if (i == 0 && j == 0)
                     result = temp;
